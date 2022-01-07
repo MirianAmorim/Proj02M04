@@ -7,7 +7,7 @@ async function bootstrap() {
 
  const config = new DocumentBuilder()
     .setTitle('Rede social')
-    .setDescription('Rede social com user, tweet, seguidores e seguindo.')
+    .setDescription('Rede social com usuario, tweet, seguidores e seguindo.')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
